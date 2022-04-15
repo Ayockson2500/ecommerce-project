@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: linear-gradient(12deg, #bcbbd2, #cce6ef, #e7c8e0);
 }
+
 .wrap {
     width: 50%;
     margin: auto;
@@ -136,9 +138,6 @@ h2 {
 }
 
 @media screen and (max-width: 850px) {
-    /* .file {
-        display: none;
-    } */
     .wrap {
         width: 100%;
     }

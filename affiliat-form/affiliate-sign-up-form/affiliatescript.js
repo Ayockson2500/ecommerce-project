@@ -32,7 +32,8 @@ let registerModal = document.querySelector('#register')
 
 function callModal(e) {
     e.preventDefault()
-    loginModal.style.top = "398px";
+    loginModal.style.top = "5px";
+    loginModal.style.left = "100px"
 }
 
 closeBtnReg.addEventListener('click', function() {
