@@ -390,6 +390,10 @@ a{
 @media screen and (max-width: 480px) {
     .suggest-product-display-grid {
         grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+    .suggest-product{
+        margin-bottom: 2%;
     }
     .product-3 p {
         font-size: 14px;
